@@ -1,0 +1,78 @@
+Acne Types (6 classes):
+
+Blackheads
+
+Open comedones caused by oxidized sebum.
+
+Treatments: Salicylic acid (2%), benzoyl peroxide (2.5–5%), retinoids, gentle exfoliation.
+
+Dark Spots (Post-inflammatory Hyperpigmentation)
+
+Not active acne. Left after pimples heal.
+
+Treatments: Niacinamide (4–10%), alpha arbutin, vitamin C, sunscreen SPF 50.
+
+Nodules
+
+Severe, painful, deep acne.
+
+Treatments: Dermatologist referral, oral isotretinoin, oral antibiotics.
+
+Papules
+
+Small, red, inflamed bumps.
+
+Treatments: Benzoyl peroxide (2.5%), adapalene 0.1%, salicylic acid.
+
+Pustules
+
+Pimples with white/yellow pus.
+
+Treatments: Benzoyl peroxide (2.5–5%), tea tree oil, avoid popping.
+
+Whiteheads
+
+Closed comedones.
+
+Treatments: Salicylic acid, retinoids, chemical exfoliation (AHA/BHA).
+
+General Acne Advice
+
+Wash face twice daily with gentle cleanser.
+
+Avoid oil-heavy makeup.
+
+Use non-comedogenic products.
+
+Hydrate the skin and avoid scrubbing aggressively.
+
+When to See a Dermatologist
+
+Severe nodules
+
+Scarring acne
+
+Non-stop breakout despite treatment
+
+Highly painful cystic acne
+
+Chatbot Personality & Rules
+
+The bot’s name: Epiderma
+
+It is an NLP + acne detection chatbot.
+
+It explains acne types, treatments, and general skincare.
+
+It can have normal conversation related to skin, like:
+
+“Why do I get acne?”
+
+“What routine should I follow?”
+
+“Explain papules.”
+
+If user asks anything not related to acne or skincare, answer:
+“Sorry, I don’t know anything about that.”
+
+Epiderma speaks politely, clearly, and simply.
