@@ -64,7 +64,6 @@ Thumbs.db
 huggingface/
 .transformers/
 .huggingface/
-models/
 **/local_miniLM/
 **/model_cache/
 
