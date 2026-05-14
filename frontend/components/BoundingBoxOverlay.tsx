@@ -95,7 +95,7 @@ export const BoundingBoxOverlay: React.FC<Props> = ({ imageSrc, detections }) =>
           >
             <span
               className="absolute -top-5 left-0 text-[10px] px-1.5 py-0.5 rounded text-white whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
-              style={{ backgroundColor: 'rgba(0,0,0,0.75)' }}
+              style={{ backgroundColor: 'rgba(20, 19, 19, 0.75)' }}
             >
               {det.label} {(det.confidence * 100).toFixed(0)}%
             </span>
