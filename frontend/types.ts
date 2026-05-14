@@ -10,12 +10,12 @@ export enum AcneSeverity {
   None = 'None'
 }
 
-// Normalized coordinates [ymin, xmin, ymax, xmax] (0-1000 scale or 0-1 scale, we will use 0-1000 for API consistency)
+// Normalized coordinates [ymin, xmin, ymax, xmax] on 0-1000 scale
 export type BoundingBox = [number, number, number, number];
 
 export interface Detection {
   label: string;
-  box_2d: BoundingBox;
+  bbox: BoundingBox;
   confidence: number;
 }
 

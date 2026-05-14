@@ -43,7 +43,7 @@ class ChatResponse(BaseModel):
 class Detection(BaseModel):
     label: str
     confidence: float
-    bbox: List[int]  # [x, y, width, height]
+    bbox: List[int]  # [ymin, xmin, ymax, xmax] normalized 0-1000
 
 class ImageAnalysisResponse(BaseModel):
     severity: str
@@ -94,7 +94,7 @@ async def analyze_image(file: UploadFile = File(...)):
         detection_results.append({
             "label": class_name,
             "confidence": float(box.conf.cpu().numpy()),
-            "bbox": [xmin_norm, ymin_norm, xmax_norm, ymax_norm]
+            "bbox": [ymin_norm, xmin_norm, ymax_norm, xmax_norm]
         })
 
     overall_severity = predict_rf(temp_filepath)
